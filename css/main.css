@@ -40,6 +40,11 @@ header {
   height: 150px;
   border-radius: 50%;
 }
+
+.Donate-Books img {
+	height:280px;
+	width:280px;
+	}
   /* ---- Section Styles ---- */
 
 
