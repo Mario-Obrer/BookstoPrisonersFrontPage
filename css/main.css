@@ -3,8 +3,22 @@
 	box-sizing: border-box;
 }
 
+a:hover {
+	color: Red;
+	transition: all .5s;
+}
+
 a {
 	text-decoration: none;
+	color: white;
+
+  }
+.col {
+	margin: 1em 1em auto 1em;
+	background-color: black;
+}
+
+.col p {
 	color: white;
 }
 
@@ -81,12 +95,7 @@ header {
   .nav li {
     padding: 5px 10px 10px 10px;
   }
-  .nav a {
-    transition: all .5s;
-  }
-  .nav a:hover {
-    color: Red
-  }
+
 
   /* ---- Media Queries ----*/
 
