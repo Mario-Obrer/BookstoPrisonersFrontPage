@@ -26,6 +26,30 @@ a {
   text-align: center;
   width: 100%;
 }
+.title {
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
+
+.nav-img {
+float: left;
+width: 20%;
+height: 20%;
+border-radius: 50%;
+}
+
+.nav {
+		float: right;
+	}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
 .Info {
   padding-left: 1em;
   padding-right: 1em;
@@ -48,58 +72,59 @@ header {
 }
 
 /* ---- Front Page Imgs ---- */
-	.nav-img {
-	float: left;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
 
-.Donate-Books img {
-	height:280px;
-	width:280px;
-	}
   /* ---- Section Styles ---- */
 
 
-.nav {
-		float:left;
-	}
-.nav li {
-		float:left;
-	}
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-
-
- .main-nav {
-	 font-size: 2em;
-	 color: white;
-	 text-transform: uppercase;
-  }
-  .nav {
-  	display: flex;
-    justify-content: space-around;
-    font-weight: 700;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-  }
-  .nav .name {
-    display: none;
-  }
-  .nav li {
-    padding: 5px 10px 10px 10px;
-  }
 
 
   /* ---- Media Queries ----*/
 
   @media (min-width: 769px) {
+		.nav-img {
+		float: left;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+
+	.Donate-Books img {
+		height:280px;
+		width:280px;
+		}
+		.nav {
+				float:left;
+			}
+		.nav li {
+				float:left;
+			}
+		.clearfix::after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		 .main-nav {
+			 font-size: 2em;
+			 color: white;
+			 text-transform: uppercase;
+		  }
+		  .nav {
+		  	display: flex;
+		    justify-content: space-around;
+		    font-weight: 700;
+		    list-style-type: none;
+		    margin: 0 auto;
+		    padding: 0;
+		  }
+		  .nav .name {
+		    display: none;
+		  }
+		  .nav li {
+		    padding: 5px 10px 10px 10px;
+		  }
+
   	.Welcome {
   		width: 90%;
   		max-width: 1000px;
@@ -117,6 +142,7 @@ header {
   		vertical-align: top;
   		padding-left: 1em;
   		padding-right: 1em;
+			padding-top: 1em;
   	}
     .banner-overlay
       {
