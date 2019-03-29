@@ -1,3 +1,4 @@
+// Initialize slide index variable to control which image is shown in the carousel
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -10,7 +11,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+// Show scanned images as slide index is modified by clicking the image controls
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("scannedImages");
@@ -26,3 +27,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//Change text color to red on mouse over of text
+$('.Info p').mouseover(function(){
+  $('.Info p').css("color", "red");
+});

@@ -6,16 +6,14 @@ h1 {
 	color: white;
 	font-family: Oswald, sans-serif;
 }
+/*adjust fontsize of header nav bar */
 
-.navbar {
-	font-size: 1em;
-}
-
+/* link styles */
 a:hover {
 	color: Red;
 	transition: all .5s;
 }
-
+/* remove default link decorations */
 a {
 	text-decoration: none;
 	color: white;
@@ -41,7 +39,7 @@ margin-top: 2%;
 		text-align: center;
 		display: inline-block;
 	}
-
+	/* Give navbar image a round border */
 	.nav-img {
 	width: 15%;
 	border-radius: 50%;
@@ -54,6 +52,7 @@ margin-top: 2%;
 	width: 10%;
 	border-radius: 50%;
 	}
+	/* Navigational footer */
 	.nav-container, footer {
 	display:flex;
 	flex-wrap: wrap;
@@ -61,10 +60,12 @@ margin-top: 2%;
 	justify-content: space-around;
 	align-items: center;
 	}
+	/* Header Navbar styles */
 	.topnav{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+		display:flex;
+		height: 5%;
+		justify-content: space-around;
+		align-items: center;
 	}
 /* ---- make the volunteer image grayscale to match the others and style of webpage ---- */
 .volunteer-image{
@@ -115,12 +116,12 @@ header, footer {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a black background color with slight opaqueness */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Artist Credit */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -129,15 +130,6 @@ header, footer {
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 /* The dots/bullets/indicators */
@@ -196,9 +188,7 @@ text-align: center;
 	display:inline-flex;
 	flex-wrap: nowrap;
 }
-.navbar {
-	font-size: 2em;
-}
+
 .volunteer, .Donate-Funds, .Donate-Books {
 	margin: 3%;
 	padding:1%;

@@ -1,8 +1,8 @@
-# CodeLou_FrontEnd
+# CodeLou_FrontEnd Project
 
 ## Description
 ```
-A brief description of your project
+A rework of the front page of Louisville Books to Prisoners web page
 
 ```
 
@@ -10,22 +10,15 @@ A brief description of your project
 
 ## Custom CSS Classes
 ```
-The class(es) I created are:
+The class(es) I created are: (see comments in main.css file)
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
-
-2.
-
-```
 
 
 
 ## Custom JavaScript Functions
 ```
-The javascript functions I created are:
+The javascript functions I created are: (see comments in app.js file)
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+
 
 ```
