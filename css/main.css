@@ -8,7 +8,7 @@ h1 {
 }
 
 .navbar {
-	display: inline-block;
+	font-size: 1em;
 }
 
 a:hover {
@@ -21,41 +21,6 @@ a {
 	color: white;
 }
 
-.Welcome {
-  text-align: center;
-  width: 100%;
-}
-.title {
-	color: white;
-	text-align: center;
-	display: inline-block;
-}
-
-.nav-img {
-height: 5%;
-width: 5%;
-border-radius: 50%;
-}
-.welcome-img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-height: 10%;
-width: 10%;
-border-radius: 50%;
-}
-.nav-container, footer {
-display:flex;
-flex-wrap: wrap;
-height: 5%;
-justify-content: space-around;
-align-items: center;
-}
-.topnav{
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
 /* Main Content Styles */
 .Info {
   display: flex;
@@ -66,6 +31,40 @@ text-align:center;
 }
 .Donate-Books, .Donate-Funds {
 margin-top: 2%;
+	}
+	.Welcome {
+	  text-align: center;
+	  width: 100%;
+	}
+	.title {
+		color: white;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.nav-img {
+	width: 15%;
+	border-radius: 50%;
+	}
+	.welcome-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 10%;
+	width: 10%;
+	border-radius: 50%;
+	}
+	.nav-container, footer {
+	display:flex;
+	flex-wrap: wrap;
+	height: 5%;
+	justify-content: space-around;
+	align-items: center;
+	}
+	.topnav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	}
 /* ---- make the volunteer image grayscale to match the others and style of webpage ---- */
 .volunteer-image{
@@ -90,7 +89,7 @@ header, footer {
 }
 
 /* Hide the images by default */
-.mySlides {
+.scannedImages {
   display: none;
 }
 
@@ -196,6 +195,9 @@ text-align: center;
 .Info {
 	display:inline-flex;
 	flex-wrap: nowrap;
+}
+.navbar {
+	font-size: 2em;
 }
 .volunteer, .Donate-Funds, .Donate-Books {
 	margin: 3%;
